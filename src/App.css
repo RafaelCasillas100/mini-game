@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+button {
+  margin: 20px 10px;
+}
+
+#memory {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#memory h1 {
+  margin-bottom: 0;
+}
+
+#memory button {
+  display: block;
+  margin: 0 10px 10px auto;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #02203c;
+  color: white;
+}
+
+#memory .board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+#memory .tile {
+  cursor: pointer;
+  margin-top: 10px;
+  flex-basis: 40%;
+  border: 1px solid black;
+  width: 20px;
+  height: 60px;
+  background-color: white;
+}
+
+#memory .red {
+  background-color: red;
+}
+
+#memory .green {
+  background-color: green;
+}
+
+#memory .blue {
+  background-color: blue;
+}
+
+#memory .yellow {
+  background-color: yellow;
+}
